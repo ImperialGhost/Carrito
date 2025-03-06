@@ -6,6 +6,7 @@ package mx.itson.carrito.ui;
 
 import java.util.Scanner;
 import mx.itson.carrito.entidades.Carro;
+import mx.itson.carrito.enums.TipoMotor;
 
 /**
  *
@@ -42,6 +43,7 @@ ford.setMiles(distancia);
 ford.setModel(marca);
 ford.setYear(anio);
 ford.setKilometraje(kilometraje);
+ford.setTipoMotor(TipoMotor.COMBUSTION);
 Double kilometrajeFinal = kilometraje + distancia;
            
    ford.calculateTime(distancia, velocidad);
